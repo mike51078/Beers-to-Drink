@@ -1,10 +1,7 @@
 // Connecting node to mysql
 var mysql = require('mysql');
-var jaws = require('node-spotify-api');
-var axios = require('axios');
-var moment = require('moment');
+var jaws = require('jaws');
 var keys = require('./keys.js');
-var fs = require('fs');
 var jaws = new jaws(keys.jaws);
 
 var connection;
@@ -16,7 +13,7 @@ if (process.env.JAWSDB_URL) {
 	//using localhost for DB
 	connection = mysql.createConnection({
 		host: 'localhost',
-		port: 8889,
+		port: 8080,
 		user: 'root',
 		password: 'root',
 		database: 'burgers_db'
