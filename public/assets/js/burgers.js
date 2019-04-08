@@ -1,5 +1,5 @@
 $(function() {
-	$('.burger_change').on('click', function(event) {
+	$('.change-devoured').on('click', function(event) {
 		event.preventDefault();
 		var id = $(this).data('id');
 		console.log(id);
