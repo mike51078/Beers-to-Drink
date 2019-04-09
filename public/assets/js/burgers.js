@@ -19,7 +19,7 @@ $(function() {
 		$.ajax('/api/burgers/' + id, {
 			type: 'PUT',
 			data: newDevourType
-		}).then(function() {
+		}).then(function(data) {
 			location.reload();
 		});
 	});
