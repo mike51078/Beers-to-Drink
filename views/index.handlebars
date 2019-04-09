@@ -3,12 +3,12 @@
 
 <div class="container">
 <tr>
-   <h1 id = "table-head">Tracking Beers to Drink!</h1> <hr>
+   <h1 id = "table-head">Tracking Craft Beers to Drink!</h1> <hr color = "black">
 </tr>
 <tr>
 <div id = "main-content" class="row align-items-center">
     <div class="col">
-      <h2>Craft beers wanted to drink!</h2>
+      <h2>Craft beers wanting to have!</h2>
 
 <ul>
     {{#each burgers}}
@@ -19,7 +19,7 @@
 </ul>
     </div>
     <div class="col">
-     <h2>Add a beer to the list to drink list!</h2>
+     <h2>Add a craft beer to the list wanting to have!</h2>
 <form class = "create-form" action= "/api/burgers" method="POST">
 
     <div class = "form-group" >
@@ -27,11 +27,11 @@
             <input type = "text" id = "burg" class = "burger_change" name = "burger_name">
     </div><br>
 
-    <button type = "submit" id = "add-beer-btn" class = "btn-block">Add Beer</button>
+    <button type = "submit" id = "add-beer-btn" class = "btn-block">Add A Beer</button>
 </form>
     </div>
     <div class="col">
-      <h2>Beers which have already been had!</h2>
+      <h2>Craft beers already had!</h2>
     <ul>
         {{#each burgers}}
             {{#if this.devoured}}

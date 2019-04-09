@@ -7,25 +7,23 @@ body {
 	background-size: 100%;
 	overflow: auto;
 	background-attachment: fixed;
+	font-family: 'Acme', sans-serif;
 }
 
 .change-devoured {
-	margin: 5px;
 	background: lightslategray;
-	padding: 5px;
-}
-
-#add-beer-btn,
-.change-devoured {
-	border-radius: 12px;
+	border-radius: 8px;
+	height: 125px;
+	width: 70px;
+	margin: 5px;
 }
 
 #add-beer-btn {
 	background: lightskyblue;
+	border-radius: 12px;
 }
 
 #table-head {
-	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -33,9 +31,11 @@ body {
 .container {
 	border: 2px solid black;
 	border-radius: 12px;
-	background: rgb(233, 232, 232);
+	background: rgb(156, 100, 15);
 	opacity: 0.9;
 	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
 }
 
 #main-content {
