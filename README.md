@@ -3,7 +3,7 @@ UCF Boot Camp Homework Assignment - MySQL
 
 ### Heroku Deployed Live Link
 
-Click on the following link to view the application deployed live.
+Click on the following link to view the application deployed live in Heroku:  https://immense-spire-75834.herokuapp.com/
 
 ### Overview
 
